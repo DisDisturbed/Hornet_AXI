@@ -1,0 +1,4 @@
+temp
+*.elf
+*.o
+rom_generator
