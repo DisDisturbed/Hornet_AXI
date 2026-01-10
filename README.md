@@ -15,12 +15,11 @@ The primary objective of this experimental branch is to replace the original Hor
 
 ---
 ## 🏗️ System Architecture
-
 ```mermaid
 graph TD
     subgraph Masters
-        Core_I[Hornet Core (Instruction)] --> Crossbar
-        Core_D[Hornet Core (Data)] --> Crossbar
+        Core_I["Hornet Core (Instruction)"] --> Crossbar
+        Core_D["Hornet Core (Data)"] --> Crossbar
     end
 
     subgraph Interconnect
@@ -32,8 +31,6 @@ graph TD
         Crossbar --> UART[UART Controller]
         Crossbar --> GPIO[GPIO]
     end
-```
-
 ---
 
 ## 🚧 Current Status & Known Issues
