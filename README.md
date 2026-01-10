@@ -109,7 +109,7 @@ This is an active development branch. The following issues are currently known:
 
 .
 
-├── RTL/                       # Hardware Description (SystemVerilog)
+├── RTL/                       # Hardware Description (Verilog)
 
 │   ├── core/                  # Hornet core (pipeline, control, CSR)
 
@@ -175,7 +175,7 @@ This generates `.hex` files used by the Verilog `$readmemh` mechanism.
 
 
 
-The SystemVerilog testbench `Wrapper_test_sv_tb.sv` expects the firmware hex file to be present in the simulation directory.
+The Verilog testbench `Wrapper_test_sv_tb.sv` expects the firmware hex file to be present in the simulation directory.
 
 
 
