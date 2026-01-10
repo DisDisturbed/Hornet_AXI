@@ -40,9 +40,9 @@ graph TD
 
     subgraph Masters
 
-        Core_I[Hornet Core (Instruction)] --> Crossbar
+        Core_I["Hornet Core (Instruction)"] --> Crossbar
 
-        Core_D[Hornet Core (Data)] --> Crossbar
+        Core_D["Hornet Core (Data)"] --> Crossbar
 
     end
 
