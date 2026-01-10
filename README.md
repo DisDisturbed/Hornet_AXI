@@ -2,7 +2,7 @@
 
 
 
-> ⚠️ **ACADEMIC / LEARNING PROJECT**  
+>  **ACADEMIC / LEARNING PROJECT**  
 
 > This repository represents a **work in progress** developed by a 3rd-year undergraduate student.  
 
