@@ -175,7 +175,7 @@ This generates `.hex` files used by the Verilog `$readmemh` mechanism.
 
 
 
-The Verilog testbench `Wrapper_test_sv_tb.sv` expects the firmware hex file to be present in the simulation directory.
+The Verilog testbench the testbench expects the firmware hex file to be present in the simulation directory.
 
 
 
